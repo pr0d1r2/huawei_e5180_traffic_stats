@@ -16,6 +16,7 @@ GEM
       tzinfo (~> 1.1)
     arel (6.0.0)
     builder (3.2.2)
+    concurrent-ruby (1.1.10)
     domain_name (0.5.24)
       unf (>= 0.0.5, < 1.0.0)
     http-cookie (1.0.2)
@@ -23,7 +24,8 @@ GEM
     huawei_e5180_api (0.1.1)
       activesupport
       mechanize
-    i18n (0.7.0)
+    i18n (0.9.5)
+      concurrent-ruby (~> 1.0)
     json (1.8.6)
     mechanize (2.7.3)
       domain_name (~> 0.5, >= 0.5.1)
